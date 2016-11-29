@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Source Sans Pro";
+}
+#main-wrapper{
+	width: 1100px;
+	height: 900px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+#logo{
+	background-color: #3cb1e6;
+	position: absolute;
+	top: 0;
+	width: 105px;
+	height: 50px;
+}
+/* Navigation */
+#navbar-wrapper{
+	float: left;
+	width: 105px;
+	padding-top: 50px;	
+	background: url("images/navBG.png");
+	min-height: 100%;
+}
+#user {
+	display: block;
+	text-align: center;
+	padding: 22px 0 10px 0;
+	border-bottom: 1px solid #4d4d46;
+}
+.notification{
+	list-style: none;
+}
+.notification li{
+	border-bottom: 1px solid #4d4d46;
+}
+.notification  a img{
+	padding-top: 10px;
+}
+.notification a{
+	width: 100%;	
+	height: 83px;
+	padding-left: 10px;	
+	display: block;
+	opacity: .4;
+	filter: grayscale(100%);
+}
+.notification a:hover{
+	opacity: 1;
+	padding-left: 6px;
+	background-color: #f2f2f2;
+	filter: grayscale(0%);
+	border-left: 4px solid #16aa4a;
+}
+/* Navigation  Ends*/
+#content-head{
+	float: left;
+	width: 995px;
+	background-color: #d8d8d8;
+	padding: 13px 0 13px 25px;
+	font-size: 24px;
+}
+#content-head span{
+	font-weight: lighter;
+}
+/*main-content */
+#main-content{
+	width: 940px;
+	float: left;
+}
+/*search box */
+#search-box {
+	 position: relative;
+	 color: #aaa;
+	 font-size: 30px;
+}
+
+#search-box input {
+	width: 940px;
+	height: 48px;
+	margin-top: 20px;
+	margin-left: 25px;
+	border: 2px solid #cacaca;
+	box-shadow: 0 0 3px #ccc;
+	text-indent: 45px;
+}
+#search-box input[type="text"]{
+	background:url('images/preview2.png') no-repeat;
+	background-color:#fcfcfc;
+	background-position: 10px center;
+	text-indent: 160px;
+	font-size: 20px;
+}
+/*Search-box Ends */
+/*checklist */
+#check-list{
+	margin-left: 25px;
+	margin-top: 13px;
+}
+#check-list label{
+	margin-right: 20px;
+}
+.checkbox-custom{
+	opacity: 0;
+	position: absolute;
+}
+.checkbox-custom, .checkbox-custom-label{
+	display: inline-block;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.checkbox-custom-label{
+    position: relative;
+}
+.checkbox-custom + .checkbox-custom-label:before{
+    content: '';
+    background: #fff;
+    border: 3px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 7px;
+    height: 7px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 2px;
+}
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    background: #3cb1e6;
+}
+/*checklist Ends*/
+/*Timeline */
+#timeline-wrapper{
+	width: 940px;
+	height: 700px;
+	background-color: #ffffff;
+	margin: 30px 25px 20px 25px;
+	border: 1px solid #cacaca;
+	box-shadow: 0 0 3px #ccc;
+}
+#timeline:before{
+	content: ' ';
+	position: absolute;
+	width: 3px;
+	background-color: #e5e5e5;
+	margin-left: 40px;
+	height: 700px;
+	z-index: 1; 
+}
+#timeline li:before{
+	content: ' ';
+	width: 900px;
+	height: 1px;
+	margin-left: 40px;
+	margin-top: 125px;
+	position: absolute;
+	background-color: #e5e5e5;
+}
+/*
+#timeline ul:after{
+	content: "";
+	width: 3px;
+	padding-top: 20px;
+	background: #e5e5e5;
+	margin-left: 40px;
+}*/
+.timeline-icon, .timeline-date{
+	position:relative;
+	z-index: 3;
+}
+.timeline-icon{
+	padding-top: 20px;
+	margin-left:21px;
+}
+.timeline-date{
+	margin-left: 14px;
+	padding-top: 10px;
+}
+.line-content{
+	position: relative;
+	width: 700px;
+  	top: -72px;
+  	left: 100px;
+}
+.line-content div{
+	position: relative;
+	float: right;
+	left: -325px;
+}
+#line-content-head{
+	font-weight: 600;
+	font-size: 17px;
+}
+#line-content-head span{
+	padding-left: 10px;
+}
+.line-content div p{
+	line-height: 14px;
+	font-weight: 400;
+	font-size: 14px; 
+}
+small{
+	font-weight: 300;
+	font-size: 12px;
+}
+.under-line{
+	border-bottom: 1px solid #8f908f;
+}
+.download-button, .tags{
+	font-weight: 300;
+	font-size: 12px;
+}
+.tags{
+	background-color: #666666;
+	color: white;
+}
+.showmore a{
+	display: inline-block;
+	width: 800px;
+	height: 32px;
+	background-color: #ebebea;
+	margin-left: 100px;
+	margin-top: 75px;
+	text-align: center;
+	line-height: 32px;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+}
+.showmore a:hover{
+	background-color: #a0a09f;
+}
