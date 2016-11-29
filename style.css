@@ -79,7 +79,6 @@ body{
 	 color: #aaa;
 	 font-size: 30px;
 }
-
 #search-box input {
 	width: 940px;
 	height: 48px;
@@ -161,14 +160,6 @@ body{
 	position: absolute;
 	background-color: #e5e5e5;
 }
-/*
-#timeline ul:after{
-	content: "";
-	width: 3px;
-	padding-top: 20px;
-	background: #e5e5e5;
-	margin-left: 40px;
-}*/
 .timeline-icon, .timeline-date{
 	position:relative;
 	z-index: 3;
@@ -215,6 +206,9 @@ small{
 	font-weight: 300;
 	font-size: 12px;
 }
+.download-button a{
+	color: #3482a5;
+}
 .tags{
 	background-color: #666666;
 	color: white;
@@ -231,7 +225,9 @@ small{
 	font-size: 14px;
 	font-weight: 700;
 	text-decoration: none;
+	color: #363633;
 }
 .showmore a:hover{
 	background-color: #a0a09f;
 }
+/* timeline Ends */
