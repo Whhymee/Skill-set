@@ -192,15 +192,15 @@ body{
 	font-weight: 400;
 	font-size: 14px; 
 }
-small, .download-button, .tags{
+small, .tags, .download-button{
 	font-weight: 200;
 	font-size: 12px;
 }
 .under-line{
 	border-bottom: 1px solid #8f908f;
 }
-.download-button a{
-	color: #3482a5;
+.download-button {
+	color:#3cb1e6;
 }
 .tags{
 	background-color: #666666;
@@ -258,13 +258,13 @@ small, .download-button, .tags{
 }
 .showmore a{
 	display:block;
-	width: 800px;
-	height: 32px;
+	width: 820px;
+	height: 30px;
 	background-color: #ebebea;
 	margin-left: 100px;
 	margin-top: 50px;
 	text-align: center;
-	line-height: 32px;
+	line-height: 30px;
 	font-size: 14px;
 	font-weight: 700;
 	text-decoration: none;
