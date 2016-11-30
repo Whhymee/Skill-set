@@ -8,7 +8,7 @@ body{
 }
 #main-wrapper{
 	width: 1100px;
-	height: 900px;
+	height: 1125px;
 	margin: 0 auto;
 	background-color: #f2f2f2;
 }
@@ -118,7 +118,7 @@ body{
 }
 .checkbox-custom + .checkbox-custom-label:before{
     content: '';
-    background: #fff;
+    background: #ddd;
     border: 3px solid #ddd;
     display: inline-block;
     vertical-align: middle;
@@ -136,7 +136,7 @@ body{
 /*Timeline */
 #timeline-wrapper{
 	width: 940px;
-	height: 700px;
+	height: 925px;
 	background-color: #ffffff;
 	margin: 30px 25px 20px 25px;
 	border: 1px solid #cacaca;
@@ -146,26 +146,20 @@ body{
 	content: ' ';
 	position: absolute;
 	width: 3px;
+	height: 925px;
 	background-color: #e5e5e5;
 	margin-left: 40px;
-	height: 700px;
 	z-index: 1; 
 }
-#timeline li:before{
-	content: ' ';
-	width: 900px;
-	height: 1px;
-	margin-left: 40px;
-	margin-top: 125px;
-	position: absolute;
-	background-color: #e5e5e5;
+.container-elements{
+	padding-top: 20px;
+	margin-bottom: -50px;
 }
 .timeline-icon, .timeline-date{
 	position:relative;
 	z-index: 3;
 }
 .timeline-icon{
-	padding-top: 20px;
 	margin-left:21px;
 }
 .timeline-date{
@@ -173,15 +167,18 @@ body{
 	padding-top: 10px;
 }
 .line-content{
-	position: relative;
-	width: 700px;
-  	top: -72px;
-  	left: 100px;
+	position:relative; 
+	width: 550px;
+	display: inline-block;
+	left: 100px;
+	top: -72px;
 }
-.line-content div{
-	position: relative;
-	float: right;
-	left: -325px;
+.segment-image{
+	float: left;
+}
+.segment{
+	float: left;
+	margin-left: 30px;
 }
 #line-content-head{
 	font-weight: 600;
@@ -190,21 +187,17 @@ body{
 #line-content-head span{
 	padding-left: 10px;
 }
-.line-content div p{
+.specific{
 	line-height: 14px;
 	font-weight: 400;
 	font-size: 14px; 
 }
-small{
-	font-weight: 300;
+small, .download-button, .tags{
+	font-weight: 200;
 	font-size: 12px;
 }
 .under-line{
 	border-bottom: 1px solid #8f908f;
-}
-.download-button, .tags{
-	font-weight: 300;
-	font-size: 12px;
 }
 .download-button a{
 	color: #3482a5;
@@ -213,13 +206,58 @@ small{
 	background-color: #666666;
 	color: white;
 }
+.image-content1, .image-content2{
+	float: left;
+	display: block;
+}
+.image-content2{
+	margin-left: 17px;
+}
+#username{
+	font-weight: 700;
+	font-size: 14px;
+	padding-top: 10px;
+}
+#userdate{
+	font-style: italic;
+	font-weight: 200;
+}
+#user-content-head{
+	font-weight: 600;
+	font-size: 16px;
+}
+
+#user-content-body{
+	font-weight: 200;
+	font-size: 16px;
+}
+#user-content-body span{
+	font-size: 14px;
+	font-weight: 400;
+}
+.user-detail{
+	float: left;
+}
+.user-content{
+	width: 420px;
+	height: 95px;
+	float: left;
+	margin-left: 20px;
+}
+#last-para, #second-para{
+	font-weight: 200;
+	font-size: 16px;
+}
+#last-para{
+	text-decoration: line-through;
+}
 .showmore a{
-	display: inline-block;
+	display:block;
 	width: 800px;
 	height: 32px;
 	background-color: #ebebea;
 	margin-left: 100px;
-	margin-top: 75px;
+	margin-top: 50px;
 	text-align: center;
 	line-height: 32px;
 	font-size: 14px;
@@ -229,5 +267,13 @@ small{
 }
 .showmore a:hover{
 	background-color: #a0a09f;
+}
+#timeline li:before{
+	content: ' ';
+	width: 900px;
+	height: 1px;
+	margin-left: 40px;
+	position: absolute;
+	background-color: #e5e5e5;
 }
 /* timeline Ends */
