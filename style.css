@@ -210,6 +210,11 @@ small, .download-button, .tags{
 	float: left;
 	display: block;
 }
+.image-content1 a, .image-content2 a, .specific a{
+	color: #3cb1e6;
+	font-weight: 400;
+	text-decoration: none;
+}
 .image-content2{
 	margin-left: 17px;
 }
